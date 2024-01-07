@@ -50,6 +50,9 @@ public:
     }
 }; 
 int main() {
+    int n;
+    cin>>n;
+    
     DisjointSet ds(7);
     ds.unionBySize(1, 2); 
     ds.unionBySize(2, 3); 
